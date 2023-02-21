@@ -1,0 +1,61 @@
+.menu_section-png {
+    margin-top: 266px;
+    background-image: url(../images/Mask.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.menu-nature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tablet-large-planshet {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.menu_align {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tablet-large-mobile {
+        flex-direction: column;
+    }
+    @include tablet-large-planshet {
+        flex-direction: column;
+        margin-top: -45px;
+    }
+}
+
+.menu-sign_up {
+    padding-right: 165px;
+    padding-top: 60px;
+    @include tablet-large-planshet {
+        align-items: center;
+        margin-left: 200px;
+        display: flex;
+        margin-top: -40px;
+    }
+    @include tablet-large-mobile {
+        min-width: 100%;
+    }
+}
+
+.menu-sign {
+    padding-top: 102px;
+    padding-left: 165px;
+    width: 574px;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #ffffff;
+    @include tablet-large-planshet {
+        text-align: center;
+        min-width: 574px;
+        margin-left: -120px;
+    }
+}

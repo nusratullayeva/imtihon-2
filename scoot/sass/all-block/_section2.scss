@@ -1,0 +1,248 @@
+.menu__section-003 {
+    height: 449.94px;
+    margin-top: 200px;
+}
+
+.menu_world {
+    align-items: center;
+    display: flex;
+    column-gap: 90px;
+    @include tablet-large-planshet {
+        flex-direction: column;
+    }
+}
+
+.menu_world--text {
+    @include tablet-large-planshet {
+        text-align: center;
+        order: 2;
+    }
+}
+
+.menu-scs {
+    width: 540px;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin: 0 auto;
+    margin-top: 69px;
+}
+
+.menu_world--text h6 {
+    width: 445px;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.menu-micci {
+    min-width: 96px;
+    min-height: 96px;
+    background: #FCB72B;
+    border-radius: 50%;
+    position: absolute;
+    top: 199px;
+    left: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Space Mono";
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.menu-card-img h5 {
+    font-family: "Space Mono";
+    font-size: 24px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin-top: 87px;
+    min-width: 350px;
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
+.menu-green {
+    background-color: #F2F5F9;
+    width: 730px;
+    height: 191px;
+}
+
+.menu-green-yellow {
+    width: 107.82px;
+    height: 28.56px;
+}
+
+.menu-class {
+    padding-top: 32px;
+    padding-left: 40px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.menu-green p {
+    width: 750px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-download h4 {
+    font-family: 'Space Mono';
+    font-size: 24px;
+    letter-spacing: -1.07143px;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 32px;
+    width: 730px;
+    margin-top: 16px;
+    background-color: #F2F5F9;
+    color: #495567;
+}
+
+.menu-faqs-section {
+    margin-top: 64px;
+}
+
+.menu-grey {
+    justify-content: space-between;
+    display: flex;
+    @include tablet-large-planshet {
+        flex-direction: column;
+    }
+}
+
+.menu-blue {
+    font-family: 'Space Mono';
+    font-size: 40px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+    @include tablet-large-planshet {
+        text-align: center;
+    }
+}
+
+.menu-card-img p {
+    width: 350px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+    margin-top: 27px;
+    @include tablet-large-planshet {
+        max-width: 457px;
+    }
+}
+
+.menu-grey-row {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 65px;
+    @include tablet-large-planshet {
+        flex-direction: column;
+    }
+}
+
+.menu_faqs {
+    font-family: 'Space Mono';
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-top: 120px;
+}
+
+.menu-01 {
+    font-family: 'Space Mono';
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    padding-top: 28px;
+}
+
+.menu-can {
+    font-family: 'Space Mono';
+    font-size: 24px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.menu-section-class {
+    position: relative;
+}
+
+.menu-img-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_world--text p {
+    width: 445px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    @include tablet-large-planshet {
+        width: 465px;
+    }
+}
+
+.menu_world--text button {
+    font-family: 'Space Mono';
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    Width: 180px;
+    Height: 53px;
+    background: #FCB72B;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.menu_world--text button:hover {
+    background-color: transparent;
+    border: 3px solid #FCB72B;
+    color: #FCB72B;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.menu__world--img img {
+    @include tablet-large-planshet {
+        order: 1;
+        margin-bottom: 56px;
+    }
+}
+
+.menu-cards-card-loto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 85px;
+    @include tablet-large-planshet {
+        flex-direction: column;
+        row-gap: 55px;
+    }
+}
